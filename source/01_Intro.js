@@ -12,4 +12,7 @@
     // ********************** //
 
 // Printing a message to the console
-console.log("Hello, World!");
+console.log("Hello, World");
+
+// Printing different values at once as a table!! - as an array
+console.table({Name: "Vadanta", Age: 21, Country: "India"}); // or any other values or variables you want to print in a tabular format automatically
