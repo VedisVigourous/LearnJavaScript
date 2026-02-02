@@ -17,8 +17,7 @@ myGlobalVar = "I am global"
 myGithub = "VedisVigourous" // No need to specify 'let' again and printing will show updated value
 
 // Reassigning a constant variable will cause an error
-// myAdmissionNum = 300066 // Uncommenting: As this line will throw an error
-
+// myAdmissionNum = 300066; // Uncommenting: As this line will throw an error
 // **** //
 
 console.log("Admission No: " , myAdmissionNum);
@@ -35,5 +34,24 @@ console.log("Github Username: " , myGithub);
 console.table([myAdmissionNum , myOldVar , myGlobalVar , myGithub])
 
 // Note: We can also declare variables without initializing them and the default value will be 'undefined'
-let uninitializedVar;
+let uninitializedVar
 console.log("Uninitialized Variable: ", uninitializedVar); // Output: undefined
+
+
+/* ========== SEMICOLON USAGE (;) ==========
+ * 
+ * Semicolons are OPTIONAL in JavaScript (Auto Semicolon Insertion - ASI)
+ * 
+ * MUST USE semicolons when:
+ * ✓ Multiple statements on one line: let x = 5; let y = 10;
+ * ✓ Line starts with [ ( ` + - / after previous statement
+ * 
+ * Example of problem without semicolon:
+ *   let a = 5
+ *   [1, 2, 3].forEach(fn)  // ERROR! JS thinks: a[1,2,3]
+ * 
+ * Best Practice:
+ * → Choose one style (always use OR never use) and be consistent
+ * → Use ESLint/Prettier to enforce your choice
+ * 
+ */
