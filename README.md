@@ -30,8 +30,10 @@
 | 01 | 🎯 **Intro** | JavaScript basics and setup | ✅ |
 | 02 | 🧬 **Variables** | `const`, `let`, `var` declarations & best practices | ✅ |
 | 03 | 🎨 **Datatypes** | Primitive types and operations | ✅ |
+| 04 | ➕ **Operations** | Arithmetic, assignment, comparison, and logical operations | ✅ |
+| 05 | 🔄 **Type Conversions** | Type identification and conversion using built-in functions | ✅ |
 
-**Progress:** 3/∞ modules completed 📈
+**Progress:** 5/∞ modules completed 📈
 
 ---
 
@@ -39,7 +41,7 @@
 
 | Feature | Details |
 |---------|---------|
-| 📝 **Comments** | Every file heavily commented for clarity |
+| 📝 **Comments** | Topic-wise grouped multi-line comments for cleaner learning flow |
 | 💡 **Examples** | Practical, real-world examples throughout |
 | 🎓 **Minimal** | Focused learning without overwhelming content |
 | 🚀 **Executable** | Run files directly with Node.js |
@@ -54,6 +56,8 @@
 | Const, Let, Var | `02_Variables.js` |
 | Semicolon Rules | `02_Variables.js` (comment section) |
 | Data Types | `03_Datatypes.js` |
+| Operators | `04_Operations.js` |
+| Type Conversion | `05_TypeConversions.js` |
 
 ---
 
@@ -72,6 +76,6 @@
 <div align="center">
 
 **Made with ❤️ by VedisVigourous**  
-*Last Updated: February 2026*
+*Last Updated: March 2026*
 
 </div>
