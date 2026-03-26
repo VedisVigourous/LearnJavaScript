@@ -33,8 +33,9 @@
 | 04 | ➕ **Operations** | Arithmetic, assignment, comparison, and logical operations | ✅ |
 | 05 | 🔄 **Type Conversions** | Type identification and conversion using built-in functions | ✅ |
 | 06 | ⚖️ **Data Comparison** | Equality, strict equality, relational comparisons, and comparison best practices | ✅ |
+| 07 | 💾 **Memories in JS** | Memory management, scope, and how JavaScript handles data storage | ✅ |
 
-**Progress:** 6/∞ modules completed 📈
+**Progress:** 7/∞ modules completed 📈
 
 ---
 
@@ -43,6 +44,7 @@
 | Feature | Details |
 |---------|---------|
 | 📝 **Comments** | Topic-wise grouped multi-line comments for cleaner learning flow |
+| 🏗️ **Memory Diagrams** | Visual ASCII representations of stack and heap memory allocation |
 | 💡 **Examples** | Practical, real-world examples throughout |
 | 🎓 **Minimal** | Focused learning without overwhelming content |
 | 🚀 **Executable** | Run files directly with Node.js |
@@ -60,6 +62,7 @@
 | Operators | `04_Operations.js` |
 | Type Conversion | `05_TypeConversions.js` |
 | Data Comparison | `06_DataComparison.js` |
+| Memories in JS | `07_MemoriesinJs.js` |
 
 ---
 
