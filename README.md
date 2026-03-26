@@ -32,8 +32,9 @@
 | 03 | 🎨 **Datatypes** | Primitive types and operations | ✅ |
 | 04 | ➕ **Operations** | Arithmetic, assignment, comparison, and logical operations | ✅ |
 | 05 | 🔄 **Type Conversions** | Type identification and conversion using built-in functions | ✅ |
+| 06 | ⚖️ **Data Comparison** | Equality, strict equality, relational comparisons, and comparison best practices | ✅ |
 
-**Progress:** 5/∞ modules completed 📈
+**Progress:** 6/∞ modules completed 📈
 
 ---
 
@@ -58,6 +59,7 @@
 | Data Types | `03_Datatypes.js` |
 | Operators | `04_Operations.js` |
 | Type Conversion | `05_TypeConversions.js` |
+| Data Comparison | `06_DataComparison.js` |
 
 ---
 
