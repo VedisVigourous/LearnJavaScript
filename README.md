@@ -27,13 +27,13 @@
 
 | # | Topic | Description | Status |
 |---|-------|-------------|--------|
-| 01 | 🎯 **Intro** | JavaScript basics and setup | ✅ |
-| 02 | 🧬 **Variables** | `const`, `let`, `var` declarations & best practices | ✅ |
-| 03 | 🎨 **Datatypes** | Primitive types and operations | ✅ |
-| 04 | ➕ **Operations** | Arithmetic, assignment, comparison, and logical operations | ✅ |
-| 05 | 🔄 **Type Conversions** | Type identification and conversion using built-in functions | ✅ |
-| 06 | ⚖️ **Data Comparison** | Equality, strict equality, relational comparisons, and comparison best practices | ✅ |
-| 07 | 💾 **Memories in JS** | Memory management, scope, and how JavaScript handles data storage | ✅ |
+| 01 | [🎯 **Intro**](source/01_Intro.js) | JavaScript basics and setup | ✅ |
+| 02 | [🧬 **Variables**](source/02_Variables.js) | `const`, `let`, `var` declarations & best practices | ✅ |
+| 03 | [🎨 **Datatypes**](source/03_Datatypes.js) | Primitive types and operations | ✅ |
+| 04 | [➕ **Operations**](source/04_Operations.js) | Arithmetic, assignment, comparison, and logical operations | ✅ |
+| 05 | [🔄 **Type Conversions**](source/05_TypeConversions.js) | Type identification and conversion using built-in functions | ✅ |
+| 06 | [⚖️ **Data Comparison**](source/06_DataComparison.js) | Equality, strict equality, relational comparisons, and comparison best practices | ✅ |
+| 07 | [💾 **Memories in JS**](source/07_MemoriesinJs.js) | Memory management, scope, and how JavaScript handles data storage | ✅ |
 
 **Progress:** 7/∞ modules completed 📈
 
