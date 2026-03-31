@@ -128,12 +128,12 @@ console.log("\n")
 
 /* Q3: Write a program that calculates the remainder of two numbers without using the modulo (%) operator. 
 
--Ans: We know Dividend = Divisor x Quotient + Remainder 
-So, Remainder = Dividend/(Divisor x Quotient) */
+-Ans: We know Dividend = (Divisor x Quotient) + Remainder 
+So, Remainder = Dividend - (Divisor * Quotient) */
 
 function remainder(divisor , dividend) {
-    quotient = dividend/divisor
-    rem = dividend/(divisor * quotient)
+    const quotient = Math.floor(dividend/divisor)
+    const rem = dividend - (divisor * quotient)
 
     console.log("Remainder is: " , rem)
 }
