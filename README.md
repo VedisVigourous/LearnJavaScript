@@ -34,35 +34,47 @@
 | 05 | [🔄 **Type Conversions**](source/05_TypeConversions.js) | Type identification and conversion using built-in functions | ✅ |
 | 06 | [⚖️ **Data Comparison**](source/06_DataComparison.js) | Equality, strict equality, relational comparisons, and comparison best practices | ✅ |
 | 07 | [💾 **Memories in JS**](source/07_MemoriesinJs.js) | Memory management, scope, and how JavaScript handles data storage | ✅ |
+| 08 | [🧠 **Practice Set**](source/Practice_Set/) | Topic-wise revision sets with runnable verification snippets | ✅ |
 
-**Progress:** 7/∞ modules completed 📈
+**Progress:** 8/∞ modules completed 📈
 
 ---
 
-## ⚡ Quick Features
+## ✨ Special Mention: Practice Sets
+
+The [Practice Set folder](source/Practice_Set/) is your revision track, designed to pair theory with quick code verification.
+
+<details>
+<summary><strong><span style="font-size: 1.1rem;">🧠 Practice Set 1</span></strong> - Core JavaScript Revision</summary>
+
+- Covers Variables, Data Types, Operations, Type Conversions, Data Comparison, and Memory concepts.
+- Uses a question-first style with concise explanations and runnable snippets.
+- Includes prediction-and-verify exercises for increment behavior, coercion, and equality edge cases.
+- Acts as a compact recap before moving to the next set.
+
+### ⚡ Quick Features
 
 | Feature | Details |
 |---------|---------|
-| 📝 **Comments** | Topic-wise grouped multi-line comments for cleaner learning flow |
-| 🏗️ **Memory Diagrams** | Visual ASCII representations of stack and heap memory allocation |
-| 💡 **Examples** | Practical, real-world examples throughout |
-| 🎓 **Minimal** | Focused learning without overwhelming content |
-| 🚀 **Executable** | Run files directly with Node.js |
+| 📝 **Comments** | Topic-wise grouped prompts and explanations for cleaner revision flow |
+| 💡 **Examples** | Practical mini-snippets to verify concepts quickly |
+| 🧪 **Verification** | Predict-first, run-next approach for better retention |
+| 🎓 **Concise** | Compact recap style to revise without overload |
+| 🚀 **Executable** | Run directly with Node.js |
 
----
-
-## 🌟 Key Concepts Covered
+### 🌟 Key Concepts Covered
 
 | Concept | Reference |
 |---------|-----------|
 | Variable Scope | `02_Variables.js` |
 | Const, Let, Var | `02_Variables.js` |
-| Semicolon Rules | `02_Variables.js` (comment section) |
 | Data Types | `03_Datatypes.js` |
 | Operators | `04_Operations.js` |
 | Type Conversion | `05_TypeConversions.js` |
 | Data Comparison | `06_DataComparison.js` |
 | Memories in JS | `07_MemoriesinJs.js` |
+
+</details>
 
 ---
 
@@ -81,6 +93,6 @@
 <div align="center">
 
 **Made with ❤️ by VedisVigourous**  
-*Last Updated: March 2026*
+*Last Updated: April 2026*
 
 </div>
