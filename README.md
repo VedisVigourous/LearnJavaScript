@@ -34,9 +34,10 @@
 | 05 | [🔄 **Type Conversions**](source/05_TypeConversions.js) | Type identification and conversion using built-in functions | ✅ |
 | 06 | [⚖️ **Data Comparison**](source/06_DataComparison.js) | Equality, strict equality, relational comparisons, and comparison best practices | ✅ |
 | 07 | [💾 **Memories in JS**](source/07_MemoriesinJs.js) | Memory management, scope, and how JavaScript handles data storage | ✅ |
-| 08 | [🧠 **Practice Set**](source/Practice_Set/) | Topic-wise revision sets with runnable verification snippets | ✅ |
+| 08 | [� **Strings**](source/08_String.js) | String methods, manipulation, and operations | ✅ |
+| 09 | [🧠 **Practice Set**](source/Practice_Set/) | Topic-wise revision sets with runnable verification snippets | ✅ |
 
-**Progress:** 8/∞ modules completed 📈
+**Progress:** 9/∞ modules completed 📈
 
 ---
 
