@@ -83,3 +83,20 @@ console.table({
 /* Explanation:
  * When we assign user1 to user2, both variables point to the same object in the heap memory.
  * Therefore, when we update the github property through user2, it also updates the value for user1 since they reference the same object. */
+
+
+/* Think of it Like: 
+   * A person named Vedant is: 
+     - A human 
+     - A student 
+     - A son 
+     - A brother etc. 
+    
+     = All these roles are the variables pointing to same person -> In Stack memory.
+
+   * Now if a role changes the person : 
+     - i.e. Brother changes his hairstyle, then all the roles will be affected because they are all pointing to the same person.
+
+     = Hence, it is the same reference in the -> Heap Memory.
+
+     InShort:: Same person may be assigned to different roles, but if the person changes, all the roles will be affected. */
