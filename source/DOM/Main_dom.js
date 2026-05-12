@@ -84,3 +84,18 @@ listItems[2].style.backgroundColor = 'lightBlue'
 for(var i = 0 ; i < listItems.length ; i++) {
    listItems[i].style.backgroundColor = '#f4f4f4'
 }
+
+
+/* ============================
+       GETELEMENTSBYTAGNAME
+   ============================ 
+   
+   - Exactly same as the className, just passing the tag name instead of class name */
+
+var li = document.getElementsByTagName('li')
+console.log(li) // Gives proper indexed list of items related to the tag name 
+li[1].textContent = "Bread"
+li[1].style.fontWeight = 'bold' 
+li[1].style.backgroundColor = 'lightBlue'
+
+/* Again for multiple items we have to loop through the collection to change it's styling */
