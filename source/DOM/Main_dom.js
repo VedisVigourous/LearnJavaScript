@@ -66,8 +66,21 @@ header.style.boxShadow = '0 0 10px 3px #7FF532';
      GETELEMENTSBYCLASSNAME
    ============================ 
    
-   1. Assigining a variable by extracting element using gebcn */
+   1. Assigining a variable by extracting element using gebcn
+   2. Accessing through the index displayed on the console */
 
 var listItems = document.getElementsByClassName('list-group-item')
 console.log(listItems) // Gives proper indexed list of items related to the class 
-console.log(listItems[1])
+listItems[2].textContent = "Milk"
+listItems[2].style.fontWeight = 'bold' 
+listItems[2].style.backgroundColor = 'lightBlue'
+
+/* Changing styles of all the listItems at once:
+   - Directly accessing throught listItems gives error 
+   - As it is not a particular tag but a collection or an array 
+   
+   - Hence, we have to loop through the collection to change it's styling */
+
+for(var i = 0 ; i < listItems.length ; i++){
+   listItems[i].style.backgroundColor = '#ecf3dc'
+}
