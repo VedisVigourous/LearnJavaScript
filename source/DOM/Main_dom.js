@@ -99,3 +99,31 @@ li[1].style.fontWeight = 'bold'
 li[1].style.backgroundColor = 'lightBlue'
 
 /* Again for multiple items we have to loop through the collection to change it's styling */
+
+/* ============================
+         QUERYSELECTOR              
+   ============================ 
+   
+   - Any type of selector can be targetted whether it's a class, id, or tag 
+   - classes are selected using '.' 
+   - ids are selected using '#' 
+   - tags are selected using their actual tag name */
+
+var header = document.querySelector('.container') // Class targetted
+header.style.backgroundColor = 'darkGreen'
+header.style.textAlign = 'center'
+header.style.padding = '10px'
+
+var input = document.querySelector('input') // tag targetted
+input.value = "Hello World" // changes the value of the input tag to "Hello World"
+
+// We have a submit button too... hence we can target a specific input tag using nth-child selector
+var submit = document.querySelector('input[type="submit"]') // tag with attribute selector
+submit.value = "Send" // changes the value of the submit button to "SEND"
+
+// Or the item list -
+var secondItem = document.querySelector('.list-group-item:nth-child(2)') // class with nth-child selector
+secondItem.style.color = 'blue' // changes the background color of the second item to light green
+
+var lastItem = document.querySelector('.list-group-item:last-child') // class with last-child selector
+lastItem.style.color = 'red' // changes the background color of the last item to light green
