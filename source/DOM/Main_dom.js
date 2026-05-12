@@ -59,3 +59,15 @@ headerTitle.innerHTML = '<span style="color: #7FF532">Item List</span>' // Chang
 var header = document.getElementById('main-header')
 header.style.borderBottom = 'solid 2px #7FF532';
 header.style.boxShadow = '0 0 10px 3px #7FF532'; 
+
+
+
+/* ============================
+     GETELEMENTSBYCLASSNAME
+   ============================ 
+   
+   1. Assigining a variable by extracting element using gebcn */
+
+var listItems = document.getElementsByClassName('list-group-item')
+console.log(listItems) // Gives proper indexed list of items related to the class 
+console.log(listItems[1])
