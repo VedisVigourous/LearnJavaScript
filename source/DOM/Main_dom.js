@@ -127,3 +127,28 @@ secondItem.style.color = 'blue' // changes the background color of the second it
 
 var lastItem = document.querySelector('.list-group-item:last-child') // class with last-child selector
 lastItem.style.color = 'red' // changes the background color of the last item to light green
+
+
+/* ============================
+         QUERYSELECTORALL
+   ============================ 
+   
+   - It selects all the elements matching the specified selector and returns a node list! 
+   - Array Functions can be then used to manipulate the returned node list */
+
+var title = document.querySelectorAll('.title') // class targetted
+console.log(title) // gives a node list of all the elements with class 'title' 
+title[0].textContent = "Add to List" // changes the text content of the first element with class 'title' to "Item Lister"
+
+/* Selecting odd and even items using nth-child selector */
+var odd = document.querySelectorAll('li:nth-child(odd)') // tag with nth-child selector for odd items
+var even = document.querySelectorAll('li:nth-child(even)') // tag with nth-child selector for even items
+
+for (var i = 0 ; i < odd.length ; i++) {
+   odd[i].style.backgroundColor = '#f4f4f4' // changes the background color of odd items to light gray
+   even[i].style.backgroundColor = '#ccc' // changes the background color of even items to darker gray
+}
+
+/* ==============
+    END OF FILE
+   ============== */
