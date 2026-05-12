@@ -82,5 +82,5 @@ listItems[2].style.backgroundColor = 'lightBlue'
    - Hence, we have to loop through the collection to change it's styling */
 
 for(var i = 0 ; i < listItems.length ; i++) {
-   listItems[i].style.backgroundColor = '#ecf3dc'
+   listItems[i].style.backgroundColor = '#f4f4f4'
 }
