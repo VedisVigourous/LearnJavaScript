@@ -18,6 +18,6 @@ console.log("Hello, World");
 console.table({Name: "Vadanta", Age: 21, Country: "India"}); // or any other values or variables you want to print in a tabular format automatically
 
 /* ----- DOCUMENTATION -----
-~ 1. MDN WEB DECS - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+~ 1. MDN WEB DOCS - https://developer.mozilla.org/en-US/docs/Web/JavaScript
 ~ 2. OFFICIAL ECMAscript - https://tc39.es/ecma262/
 */
