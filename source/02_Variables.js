@@ -17,7 +17,7 @@ myGlobalVar = "I am global"
 myGithub = "VedisVigourous" // No need to specify 'let' again and printing will show updated value
 
 // Reassigning a constant variable will cause an error
-// myAdmissionNum = 300066; // Uncommenting: As this line will throw an error
+// myAdmissionNum = 300066; // Commenting: As this line will throw an error
 // **** //
 
 console.log("Admission No: " , myAdmissionNum);
