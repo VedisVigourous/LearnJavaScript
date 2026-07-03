@@ -17,7 +17,7 @@ console.log(document.all) // Provides with all the used tags with indexing accor
 console.log(document.all[10]) // Grabbing of a tag using it's index to get it's details and props
 
 // We can also change the content of a tag using it's index in the document.all array
-// document.all[14].textContent = "Hello World" // Changes the text of the tag with index 14 to "Hello World"
+document.all[16].textContent = "Hello World" // Changes the text of the tag with index 16 to "Hello World"
 
 // Note: If a tag is not present in the document and we console.log it, it will return null
 console.log(document.links) // null - because there are no links in the document, if there were any links then it would have returned an array of all the links present in the document
