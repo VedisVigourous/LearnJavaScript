@@ -21,28 +21,46 @@
      <title>Item Lister</title>
 </head>
 <body>
-     <header id="main-header" class="bg-success text-white p-4 mb-3">
+     <header id="main-header" class="text-white p-4 mb-3 d-flex justify-content-between" style="background-color: green;">
      <div class="container">
           <h1 id="header-title">Item Lister<span style="display: none"> by Vedant</span></h1>
+     </div>
+     <div class="col-md-6 align-self-center">
+          <input type="text" class="form-control" placeholder="Search Items..." id="filter">
      </div>
      </header>
      <div class="container">
           <div id="main" class="card card-body">
                <h2 class="title">Add Items</h2>
-               <form class="form-inline mb-3 d-flex gap-2">
-                    <input type="text" class="form-control mr-2">
+               <form class="form-inline mb-3 d-flex gap-2" id="addForm">
+                    <input type="text" class="form-control mr-2" id="item">
+                    <select>
+                         <option value="1">1</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                    </select>
                     <input type="submit" class="btn btn-dark" value="Submit">
+                    
                </form>
                <h2 class="title">Items</h2>
                <ul id="items" class="list-group">
-                    <li class="list-group-item">Item 1</li>
-                    <li class="list-group-item">Item 2</li>
-                    <li class="list-group-item">Item 3</li>
-                    <li class="list-group-item">Item 4</li>
+                    <li class="list-group-item">Veggies?
+                         <button id = "delete" class="btn btn-danger btn-sm float-end delete">Remove</button>
+                    </li>
+                    <li class="list-group-item">Dairy?
+                         <button class="btn btn-danger btn-sm float-end delete">Remove</button>
+                    </li>
                </ul>
-               <span></span>
+               <br>
+               <button class="btn btn-dark btn-block" id="button">Finish </button>
+               <div class="resultingOutput"></div>
+               <br>
+               <div style="width:400px; height:200px; background:#f4f4f4; align-self: center; display: flex; justify-content: center; align-items: center;" id="box"><h3>Hover Here! </h3></div>
           </div>
+          <br><br>
      </div>
      <script src="./Main_dom.js"></script>
      <script src="./Main_dom2.js"></script>
+     <script src="./Main_dom3.js"></script>
+     <script src="./Main_dom4.js"></script>
 </body>
