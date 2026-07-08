@@ -57,11 +57,10 @@ Replaces "Mobile" with "PC".
 Converts the entire string to Uppercase. */
 
 let gameName = "   Space-Invaders-Mobile   "
+let modifedGameName = gameName.trim().replace("Mobile", "PC").toUpperCase()
 console.table({
     "Original String": gameName,
-    "Trimmed String": gameName.trim(),
-    "Replaced String": gameName.replace("Mobile" , "PC"),
-    "Upper-Case String": gameName.toUpperCase()
+    "Modified String": modifedGameName
 })
 
 console.log("")
@@ -82,7 +81,7 @@ console.log("")
 
 /* Q1: Given a number let balance = 500.4567, format it so it always displays exactly two decimal places (like a currency). */
 let balance = 500.4567
-const balanceDecimal = balance.toFixed(2).toString()
+const balanceDecimal = balance.toFixed(2)
 
 console.log("> Balance in 2 decimal places: " + balanceDecimal)
 
