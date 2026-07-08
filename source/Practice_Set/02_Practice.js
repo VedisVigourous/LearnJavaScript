@@ -68,7 +68,7 @@ console.log("")
 /* Q3: Use a string method to check if a specific email address ends with @gmail.com and log a boolean result. */
 // Ans: Using - 'includes()'
 const mail = "vedant.javascript@gmail.com"
-console.log(`> Mail ends with @gmail.com? - ${mail.includes("@gmail.com")}`)
+console.log(`> Mail ends with @gmail.com? - ${mail.endsWith("@gmail.com")}`)
 
 console.log("")
 
@@ -90,9 +90,10 @@ console.log("")
 /* Q2: Write a function that generates a random integer between a min and a max value (inclusive). Explain why you need to use Math.floor() and Math.random() together for this. 
 
 Ans: We need Math.floor() and Math.random() together to generate a random integer within the specified range. Math.random() generates a floating-point number between 0 (inclusive) and 1 (exclusive), and Math.floor() rounds it down to the nearest integer. */
-const min = 1
-const max = 3
-console.log("> Random integer between 1 to 10: " + Math.floor((Math.random() * (max - min + 1) + min)))
+function getRandomInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
+console.log("> Random integer between 1 to 10: " + getRandomInteger(1, 10))
 
 console.log("")
 
