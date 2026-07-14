@@ -40,7 +40,7 @@ const gtaHdUniverse = ["Niko Bellic", "Michael De Santa", "Franklin Clinton", "T
 
 console.log("> Array using Spread: ")
 const gtaSideChar = ["Jhonny Klebitz", "Gay Tony", "Jimmy De Santa"]
-const spreadArr = [...gta3dUniverse , ...gtaHdUniverse, ...gtaSideChar]
+const spreadArr = [...gta3dUniverse , ...gtaHdUniverse, ...gtaSideChar , ...["Vlad Glebov", "Ray Boccino"]]
 console.log(spreadArr)
 
 
