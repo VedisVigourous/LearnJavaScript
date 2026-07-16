@@ -73,7 +73,7 @@ console.table({
                             * Doesn't modify the original array
                             * index2 is not included!
    
-   .splice(index1, index2) - * It also extracts a range but
+   .splice(index1, no_of_value_toRemove) - * It also extracts a range but
                              # Modifies the original array by removing the range
                              # index2 is included! */
 
