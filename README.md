@@ -19,7 +19,8 @@
 - ✅ Master variable declarations (`const`, `let`, `var`)
 - ✅ Work with primitive and complex data types
 - ✅ Write clean, idiomatic JavaScript code
-- ✅ Learn best practices from day one
+- ✅ Learn DOM manipulation and browser-based scripting
+- ✅ Practice problem-solving with revision exercises
 
 ---
 
@@ -27,19 +28,24 @@
 
 | # | Topic | Description | Status |
 |---|-------|-------------|--------|
-| 01 | [🎯 **Intro**](source/01_Intro.js) | JavaScript basics and setup | ✅ |
-| 02 | [🧬 **Variables**](source/02_Variables.js) | `const`, `let`, `var` declarations & best practices | ✅ |
-| 03 | [🎨 **Datatypes**](source/03_Datatypes.js) | Primitive types and operations | ✅ |
-| 04 | [➕ **Operations**](source/04_Operations.js) | Arithmetic, assignment, comparison, and logical operations | ✅ |
-| 05 | [🔄 **Type Conversions**](source/05_TypeConversions.js) | Type identification and conversion using built-in functions | ✅ |
-| 06 | [⚖️ **Data Comparison**](source/06_DataComparison.js) | Equality, strict equality, relational comparisons, and comparison best practices | ✅ |
-| 07 | [💾 **Memories in JS**](source/07_MemoriesinJs.js) | Memory management, scope, and how JavaScript handles data storage | ✅ |
-| 08 | [📝 **Strings**](source/08_String.js) | String methods, manipulation, and operations | ✅ |
-| 09 | [🔢 **Numbers**](source/09_Numbers.js) | Number operations, methods, and conversions | ✅ |
-| 10 | [➗ **Maths**](source/10_Maths.js) | Mathematical operations and built-in Math object | ✅ |
-| 11 | [🧠 **Practice Set**](source/Practice_Set/) | Topic-wise revision sets with runnable verification snippets | ✅ |
+| 01 | [🎯 **Intro**](source/CH01_Basics/01_Intro.js) | JavaScript basics and setup | ✅ |
+| 02 | [🧬 **Variables**](source/CH01_Basics/02_Variables.js) | `const`, `let`, `var` declarations & best practices | ✅ |
+| 03 | [🎨 **Datatypes**](source/CH01_Basics/03_Datatypes.js) | Primitive types and operations | ✅ |
+| 04 | [➕ **Operations**](source/CH01_Basics/04_Operations.js) | Arithmetic, assignment, comparison, and logical operations | ✅ |
+| 05 | [🔄 **Type Conversions**](source/CH01_Basics/05_TypeConversions.js) | Type identification and conversion using built-in functions | ✅ |
+| 06 | [⚖️ **Data Comparison**](source/CH01_Basics/06_DataComparison.js) | Equality, strict equality, relational comparisons, and comparison best practices | ✅ |
+| 07 | [💾 **Memories in JS**](source/CH01_Basics/07_MemoriesinJs.js) | Memory concepts and how JavaScript stores data | ✅ |
+| 08 | [📝 **Strings**](source/CH01_Basics/08_String.js) | String methods, manipulation, and operations | ✅ |
+| 09 | [🔢 **Numbers**](source/CH01_Basics/09_Numbers.js) | Number operations, methods, and conversions | ✅ |
+| 10 | [➗ **Maths**](source/CH01_Basics/10_Maths.js) | Mathematical operations and built-in Math object | ✅ |
+| 11 | [📅 **DateTime**](source/CH01_Basics/11_DatenTime.js) | Date and time handling in JavaScript | ✅ |
+| 12 | [🧮 **Arrays**](source/CH02_Arrays/) | Array creation, indexing, and common array operations | ✅ |
+| 13 | [🏗️ **Objects**](source/CH03_Objects/) | Object literals, properties, methods, and nested data modeling | ✅ |
+| 14 | [⚙️ **Functions**](source/CH04_Functions/) | Function declarations, scope, hoisting, arrows, and IIFE | ✅ |
+| 15 | [🖥️ **DOM**](source/DOM/) | Browser scripting with HTML and JavaScript interaction | ✅ |
+| 16 | [🧠 **Practice Set**](source/Practice_Set/) | Topic-wise revision sets with executable examples | ✅ |
 
-**Progress:** 11/∞ modules completed 📈
+**Progress:** 16/∞ modules completed 📈
 
 ---
 
@@ -48,12 +54,12 @@
 The [Practice Set folder](source/Practice_Set/) is your revision track, designed to pair theory with quick code verification.
 
 <details>
-<summary><strong><span style="font-size: 1.1rem;">🧠 Practice Set 1</span></strong> - Core JavaScript Revision</summary>
+<summary><strong><span style="font-size: 1.1rem;">🧠 Practice Set 1, 2 & 3</span></strong> - JavaScript Revision Exercises</summary>
 
-- Covers Variables, Data Types, Operations, Type Conversions, Data Comparison, and Memory concepts.
+- Covers variables, data types, operations, type conversions, comparisons, arrays, objects, functions, and DOM basics.
 - Uses a question-first style with concise explanations and runnable snippets.
-- Includes prediction-and-verify exercises for increment behavior, coercion, and equality edge cases.
-- Acts as a compact recap before moving to the next set.
+- Includes practical coding examples and verification tasks for core JavaScript concepts.
+- Acts as a compact recap before moving deeper into advanced topics.
 
 ### ⚡ Quick Features
 
@@ -69,13 +75,16 @@ The [Practice Set folder](source/Practice_Set/) is your revision track, designed
 
 | Concept | Reference |
 |---------|-----------|
-| Variable Scope | `02_Variables.js` |
-| Const, Let, Var | `02_Variables.js` |
-| Data Types | `03_Datatypes.js` |
-| Operators | `04_Operations.js` |
-| Type Conversion | `05_TypeConversions.js` |
-| Data Comparison | `06_DataComparison.js` |
-| Memories in JS | `07_MemoriesinJs.js` |
+| Variable Scope | [source/CH01_Basics/02_Variables.js](source/CH01_Basics/02_Variables.js) |
+| Const, Let, Var | [source/CH01_Basics/02_Variables.js](source/CH01_Basics/02_Variables.js) |
+| Data Types | [source/CH01_Basics/03_Datatypes.js](source/CH01_Basics/03_Datatypes.js) |
+| Operators | [source/CH01_Basics/04_Operations.js](source/CH01_Basics/04_Operations.js) |
+| Type Conversion | [source/CH01_Basics/05_TypeConversions.js](source/CH01_Basics/05_TypeConversions.js) |
+| Data Comparison | [source/CH01_Basics/06_DataComparison.js](source/CH01_Basics/06_DataComparison.js) |
+| Arrays | [source/CH02_Arrays](source/CH02_Arrays) |
+| Objects | [source/CH03_Objects](source/CH03_Objects) |
+| Functions | [source/CH04_Functions](source/CH04_Functions) |
+| DOM | [source/DOM](source/DOM) |
 
 </details>
 
@@ -96,6 +105,6 @@ The [Practice Set folder](source/Practice_Set/) is your revision track, designed
 <div align="center">
 
 **Made with ❤️ by VedisVigourous**  
-*Last Updated: April 2026*
+*Last Updated: August 2026*
 
 </div>
