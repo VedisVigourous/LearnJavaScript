@@ -22,6 +22,17 @@
 - ✅ Learn DOM manipulation and browser-based scripting
 - ✅ Practice problem-solving with revision exercises
 
+## 🚀 Getting Started
+
+Install [Node.js](https://nodejs.org/) to run the JavaScript examples from a terminal:
+
+```bash
+node source/CH01_Basics/01_Intro.js
+node source/Practice_Set/01_Practice.js
+```
+
+The DOM examples run in a browser. Open [source/DOM/Main_Index.html](source/DOM/Main_Index.html) and use the page links to explore the browser-based exercises.
+
 ---
 
 ## 📖 Learning Modules
@@ -42,10 +53,26 @@
 | 12 | [🧮 **Arrays**](source/CH02_Arrays/) | Array creation, indexing, and common array operations | ✅ |
 | 13 | [🏗️ **Objects**](source/CH03_Objects/) | Object literals, properties, methods, and nested data modeling | ✅ |
 | 14 | [⚙️ **Functions**](source/CH04_Functions/) | Function declarations, scope, hoisting, arrows, and IIFE | ✅ |
-| 15 | [🖥️ **DOM**](source/DOM/) | Browser scripting with HTML and JavaScript interaction | ✅ |
-| 16 | [🧠 **Practice Set**](source/Practice_Set/) | Topic-wise revision sets with executable examples | ✅ |
+| 15 | [🧠 **Execution Context**](source/CH05_ExecutionContext/23_ExectuionTheory.js) | Call stack, execution phases, and JavaScript's execution model | ✅ |
+| 16 | [🖥️ **DOM**](source/DOM/) | Browser scripting with HTML and JavaScript interaction | ✅ |
+| 17 | [🧠 **Practice Set**](source/Practice_Set/) | Topic-wise revision sets with executable examples | ✅ |
 
-**Progress:** 16/∞ modules completed 📈
+**Progress:** 17 modules completed 📈
+
+---
+
+## 🗂️ Repository Structure
+
+```text
+source/
+├── CH01_Basics/           # JavaScript fundamentals
+├── CH02_Arrays/           # Arrays and array operations
+├── CH03_Objects/          # Objects and data modeling
+├── CH04_Functions/        # Functions, scope, and hoisting
+├── CH05_ExecutionContext/ # Execution context and call stack
+├── DOM/                   # Browser-based exercises
+└── Practice_Set/          # Revision exercises
+```
 
 ---
 
