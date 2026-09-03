@@ -50,4 +50,4 @@ do {
     num++;
 }while (num <= 10);
 
-// Note: For num = 11 loop executes because condition is checked after i.e. one execution is always done!
+// Note: For num = 11 loop executes because condition is checked after i.e. one execution is always done!p
