@@ -42,8 +42,7 @@ console.log(`> Sum of the value in arr2 - ${sum2}`)
    iterable.forEach( <referenceOfTheFunction> ) 
    
    Note: Don't execute the function in forEach just the reference needs to be passed
-   - Gives TypeError!    
-*/ 
+   - Gives TypeError!    */ 
 
 
 function printingArr(val) {
